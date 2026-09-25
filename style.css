@@ -1,0 +1,53 @@
+﻿body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+#wgg-netbar {
+    background-color: #0b0d19; 
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px;
+    height: 40px; 
+}
+
+
+.wgg-netbar__left {
+    display: flex;
+    align-items: center;
+}
+
+.wgg-netbar__logo img {
+    display: block;
+}
+
+/* Правая часть (навигация и ссылки) */
+#wgg-netbar nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 20px; /* Расстояние между элементами списка */
+}
+
+/* Ссылки внутри шапки */
+#wgg-netbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+    #wgg-netbar a:hover {
+        text-decoration: underline;
+    }
+
+/* Текст текущей темы */
+#pt-themes span {
+    font-size: 14px;
+    color: #a0a0a0;
+}
